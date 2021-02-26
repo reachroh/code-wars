@@ -4,25 +4,6 @@ public class Codewars {
     for (int i=0;i<array.length;i++) {
       sum += array[i];
     }
-    
- for (int i=0; i < array.length; i++) {
-
-if(sum%2 == 0)
-
-{
-
-return "even";
-
+return sum%2 == 0 ? "even" : "odd";
 }
-
-else 
-
-{
-
-return "odd";
-
 }
-   
-}
-return "zero";    }
-  }
