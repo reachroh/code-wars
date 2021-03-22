@@ -10,3 +10,6 @@ class FirstNonConsecutive {
         return null; // whole array is consecutive
     }
 }
+
+
+ return (int) Math.ceil(month / 3.);
